@@ -1,0 +1,92 @@
+{
+  "timestamp": "2026-02-12T23:56:52.302609",
+  "analysis": {
+    "text": {
+      "text": "INTELLIGENCE REPORT - CHECKPOINT ALPHA SURVEILLANCE\nClassification: CONFIDENTIAL\nReport ID: CHK-ALPHA-2025-0212-001\nDate: 2025-02-12\nTime: 14:30 UTC\nLocation: Checkpoint Alpha, Border Zone 7, 36\u00c2\u00b042'15\"N 41\u00c2\u00b018'22\"E\n\nSITUATION OVERVIEW:\nRoutine surveillance mission conducted at Checkpoint Alpha between 13:00-14:30 UTC.\nAdvanced reconnaissance drone deployed for aerial monitoring of border crossing area.\n\nPERSONNEL OBSERVED:\n- 15 individuals detected in vicinity of checkpoint\n- 8 civilians processing through normal checkpoint procedures\n- 4 border security personnel at stations\n- 3 armed military personnel on patrol duty\n- All personnel appear to be conducting authorized activities\n\nVEHICLE ACTIVITY:\n- 3 civilian vehicles (2 cars, 1 truck) in queue for inspection\n- 1 military jeep conducting perimeter patrol\n- 2 motorcycles parked near civilian waiting area\n- Normal traffic flow observed, no unusual patterns\n\nINFRASTRUCTURE STATUS:\n- Main checkpoint building operational\n- Security barriers functioning normally\n- Communication tower active\n- Perimeter fence intact with no breaches\n- Lighting systems operational\n\nAERIAL ACTIVITY:\n- 1 surveillance drone (ours) conducting monitoring\n- No unauthorized aircraft detected\n- Clear weather conditions, excellent visibility\n\nWEAPONS OBSERVED:\n- Standard issue rifles carried by 3 military personnel (routine)\n- No heavy weapons visible\n- No unauthorized weapons detected\n\nUNUSUAL ACTIVITY:\n- None detected during observation period\n- All activity consistent with normal checkpoint operations\n- No security concerns identified\n\nTHREAT ASSESSMENT:\nCurrent threat level: LOW\n- No hostile indicators present\n- Normal operational status maintained\n- All personnel following standard procedures\n- No immediate security concerns\n\nENVIRONMENTAL CONDITIONS:\n- Weather: Clear, temperature 18\u00c2\u00b0C\n- Visibility: Excellent (15+ km)\n- Wind: Light, 5-10 km/h from northwest\n- Time of day: Afternoon, good lighting\n\nCOMMUNICATION INTERCEPTS:\n- Standard radio traffic between checkpoint and command\n- No unusual communications detected\n- All transmissions following normal protocols\n\nRECOMMENDATION:\nContinue routine monitoring schedule. Next surveillance window: 18:00 UTC.\nMaintain current security posture. No additional forces required.\n\nADDITIONAL NOTES:\nCheckpoint functioning efficiently. Average vehicle processing time: 8 minutes.\nCivilian cooperation level: High. No incidents during observation period.\n\nThis report represents standard operational activity with no elevated concerns.\nAll observations within normal parameters for this checkpoint location.\n\nNEXT PATROL SCHEDULED: 18:00 UTC\nREPORTING OFFICER: Surveillance Team Delta-7\nAPPROVED BY: Command Center Operations\nSTATUS: ROUTINE - NO ACTION REQUIRED",
+      "threat_level": "high",
+      "threat_score": 0.337,
+      "confidence": 0.75
+    },
+    "image": {
+      "image_path": "D:\\PythonProject\\intelligence_perception_system\\inputs\\images\\routineAlpha1.png",
+      "total_detections": 5,
+      "detections": [
+        {
+          "bbox": [
+            363,
+            243,
+            442,
+            286
+          ],
+          "confidence": 0.698,
+          "class": "truck",
+          "category": "vehicle"
+        },
+        {
+          "bbox": [
+            45,
+            223,
+            81,
+            255
+          ],
+          "confidence": 0.493,
+          "class": "car",
+          "category": "vehicle"
+        },
+        {
+          "bbox": [
+            581,
+            289,
+            676,
+            357
+          ],
+          "confidence": 0.486,
+          "class": "truck",
+          "category": "vehicle"
+        },
+        {
+          "bbox": [
+            245,
+            328,
+            406,
+            417
+          ],
+          "confidence": 0.414,
+          "class": "bus",
+          "category": "vehicle"
+        },
+        {
+          "bbox": [
+            67,
+            231,
+            144,
+            302
+          ],
+          "confidence": 0.376,
+          "class": "truck",
+          "category": "vehicle"
+        }
+      ],
+      "counts": {
+        "person": 0,
+        "vehicle": 5,
+        "aircraft": 0
+      },
+      "confidence": 0.8
+    }
+  },
+  "detections": {
+    "humans": 0,
+    "vehicles": 5,
+    "aircraft": 0
+  },
+  "threat_assessment": {
+    "level": "high",
+    "score": 0.8,
+    "text_score": 0.7,
+    "image_boost": 0.1
+  },
+  "confidence": {
+    "overall": 0.775
+  }
+}

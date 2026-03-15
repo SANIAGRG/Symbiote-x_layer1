@@ -1,0 +1,125 @@
+{
+  "timestamp": "2026-02-12T02:59:16.931414",
+  "analysis": {
+    "text": {
+      "text": "",
+      "threat_level": "low",
+      "threat_score": 0.1,
+      "confidence": 0.0
+    },
+    "image": {
+      "image_path": "D:\\PythonProject\\intelligence_perception_system\\inputs\\images\\symbio test 3.png",
+      "total_detections": 8,
+      "detections": [
+        {
+          "bbox": [
+            375,
+            646,
+            427,
+            784
+          ],
+          "confidence": 0.81,
+          "class": "person",
+          "category": "person"
+        },
+        {
+          "bbox": [
+            438,
+            664,
+            517,
+            812
+          ],
+          "confidence": 0.79,
+          "class": "person",
+          "category": "person"
+        },
+        {
+          "bbox": [
+            305,
+            637,
+            358,
+            779
+          ],
+          "confidence": 0.79,
+          "class": "person",
+          "category": "person"
+        },
+        {
+          "bbox": [
+            563,
+            653,
+            624,
+            807
+          ],
+          "confidence": 0.787,
+          "class": "person",
+          "category": "person"
+        },
+        {
+          "bbox": [
+            171,
+            646,
+            221,
+            769
+          ],
+          "confidence": 0.746,
+          "class": "person",
+          "category": "person"
+        },
+        {
+          "bbox": [
+            409,
+            554,
+            919,
+            752
+          ],
+          "confidence": 0.661,
+          "class": "truck",
+          "category": "vehicle"
+        },
+        {
+          "bbox": [
+            137,
+            206,
+            909,
+            386
+          ],
+          "confidence": 0.642,
+          "class": "airplane",
+          "category": "aircraft"
+        },
+        {
+          "bbox": [
+            480,
+            688,
+            518,
+            734
+          ],
+          "confidence": 0.301,
+          "class": "backpack",
+          "category": "other"
+        }
+      ],
+      "counts": {
+        "person": 5,
+        "vehicle": 1,
+        "aircraft": 1
+      },
+      "confidence": 0.8
+    }
+  },
+  "detections": {
+    "humans": 5,
+    "vehicles": 1,
+    "aircraft": 1
+  },
+  "threat_assessment": {
+    "level": "low",
+    "score": 0.35,
+    "text_score": 0.2,
+    "image_boost": 0.15
+  },
+  "confidence": {
+    "overall": 0.4
+  }
+}
